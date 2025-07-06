@@ -1,0 +1,21 @@
+{
+  "storage": {
+    "": {
+      "1f05a3d7-8987-6e50-ffff-6195afbbb1db": [
+        "{\"v\":1,\"id\":\"1f05a3d7-8987-6e50-ffff-6195afbbb1db\",\"ts\":\"2025-07-06T07:47:31.125Z\",\"channel_values\":{\"messages\":[],\"__start__\":{\"messages\":[{\"role\":\"user\",\"content\":\"Hello\"}]}},\"channel_versions\":{\"__start__\":1},\"versions_seen\":{\"__input__\":{}}}",
+        "{\"source\":\"input\",\"writes\":{\"__start__\":{\"messages\":[{\"role\":\"user\",\"content\":\"Hello\"}]}},\"step\":-1,\"parents\":{}}",
+        null
+      ],
+      "1f05a3d7-899d-6de0-8000-c00e3df28442": [
+        "{\"v\":1,\"id\":\"1f05a3d7-899d-6de0-8000-c00e3df28442\",\"ts\":\"2025-07-06T07:47:31.134Z\",\"channel_values\":{\"messages\":[{\"lc\":1,\"type\":\"constructor\",\"id\":[\"langchain_core\",\"messages\",\"HumanMessage\"],\"kwargs\":{\"content\":\"Hello\",\"additional_kwargs\":{},\"response_metadata\":{},\"id\":\"1a533e58-ade7-41c7-ab6d-2b956dd64002\"}}],\"branch:to:💭 llmNode\":null},\"channel_versions\":{\"__start__\":2,\"messages\":2,\"branch:to:💭 llmNode\":2},\"versions_seen\":{\"__input__\":{},\"__start__\":{\"__start__\":1}}}",
+        "{\"source\":\"loop\",\"writes\":null,\"step\":0,\"parents\":{}}",
+        "1f05a3d7-8987-6e50-ffff-6195afbbb1db"
+      ],
+      "1f05a3d7-9b3b-6250-8001-394d6579d929": [
+        "{\"v\":1,\"id\":\"1f05a3d7-9b3b-6250-8001-394d6579d929\",\"ts\":\"2025-07-06T07:47:32.981Z\",\"channel_values\":{\"toolInvokeConfirm\":{\"lc\":2,\"type\":\"undefined\"},\"waitingTools\":[],\"messages\":[{\"lc\":1,\"type\":\"constructor\",\"id\":[\"langchain_core\",\"messages\",\"HumanMessage\"],\"kwargs\":{\"content\":\"Hello\",\"additional_kwargs\":{},\"response_metadata\":{},\"id\":\"1a533e58-ade7-41c7-ab6d-2b956dd64002\"}},{\"lc\":1,\"type\":\"constructor\",\"id\":[\"langchain_core\",\"messages\",\"AIMessage\"],\"kwargs\":{\"content\":\"Hello! How can I help you today? I have access to a weather tool that can provide weather information for cities if you'd like to check the weather somewhere.\",\"name\":{\"lc\":2,\"type\":\"undefined\"},\"additional_kwargs\":{\"function_call\":{\"lc\":2,\"type\":\"undefined\"},\"tool_calls\":{\"lc\":2,\"type\":\"undefined\"}},\"response_metadata\":{\"tokenUsage\":{\"promptTokens\":414,\"completionTokens\":36,\"totalTokens\":450},\"finish_reason\":\"stop\",\"model_name\":\"claude-sonnet-4-20250514\"},\"id\":\"msg_vrtx_017TwaikwGQnxqdYmWCxARqZ\",\"tool_calls\":[],\"invalid_tool_calls\":[],\"usage_metadata\":{\"output_tokens\":36,\"input_tokens\":414,\"total_tokens\":450,\"input_token_details\":{\"audio\":{\"lc\":2,\"type\":\"undefined\"},\"cache_read\":{\"lc\":2,\"type\":\"undefined\"}},\"output_token_details\":{\"audio\":{\"lc\":2,\"type\":\"undefined\"},\"reasoning\":{\"lc\":2,\"type\":\"undefined\"}}}}}]},\"channel_versions\":{\"__start__\":2,\"messages\":3,\"branch:to:💭 llmNode\":3,\"waitingTools\":3,\"toolInvokeConfirm\":3},\"versions_seen\":{\"__input__\":{},\"__start__\":{\"__start__\":1},\"💭 llmNode\":{\"branch:to:💭 llmNode\":2}}}",
+        "{\"source\":\"loop\",\"writes\":{\"💭 llmNode\":{\"waitingTools\":[],\"toolInvokeConfirm\":{\"lc\":2,\"type\":\"undefined\"},\"messages\":[{\"lc\":1,\"type\":\"constructor\",\"id\":[\"langchain_core\",\"messages\",\"AIMessage\"],\"kwargs\":{\"content\":\"Hello! How can I help you today? I have access to a weather tool that can provide weather information for cities if you'd like to check the weather somewhere.\",\"name\":{\"lc\":2,\"type\":\"undefined\"},\"additional_kwargs\":{\"function_call\":{\"lc\":2,\"type\":\"undefined\"},\"tool_calls\":{\"lc\":2,\"type\":\"undefined\"}},\"response_metadata\":{\"tokenUsage\":{\"promptTokens\":414,\"completionTokens\":36,\"totalTokens\":450},\"finish_reason\":\"stop\",\"model_name\":\"claude-sonnet-4-20250514\"},\"id\":\"msg_vrtx_017TwaikwGQnxqdYmWCxARqZ\",\"tool_calls\":[],\"invalid_tool_calls\":[],\"usage_metadata\":{\"output_tokens\":36,\"input_tokens\":414,\"total_tokens\":450,\"input_token_details\":{\"audio\":{\"lc\":2,\"type\":\"undefined\"},\"cache_read\":{\"lc\":2,\"type\":\"undefined\"}},\"output_token_details\":{\"audio\":{\"lc\":2,\"type\":\"undefined\"},\"reasoning\":{\"lc\":2,\"type\":\"undefined\"}}}}}]}},\"step\":1,\"parents\":{}}",
+        "1f05a3d7-899d-6de0-8000-c00e3df28442"
+      ]
+    }
+  }
+}
